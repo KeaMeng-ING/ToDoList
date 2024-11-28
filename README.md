@@ -19,6 +19,11 @@ The **To-Do List App** is a simple and intuitive application that allows users t
 - Aligning with project objectives through a proactive approach  
 - Analyzing challenges and avoiding rushing into solutions
 
+## Installation
 
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/KeaMeng-ING/Tic-Tac-Toe.git
 
 
