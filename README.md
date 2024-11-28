@@ -26,4 +26,12 @@ The **To-Do List App** is a simple and intuitive application that allows users t
    ```bash
    git clone https://github.com/KeaMeng-ING/Tic-Tac-Toe.git
 
+2. Setting up Project
 
+   ```bash
+   npm init -y
+
+3. Run the Project
+
+   ```bash
+   npx webpack serve
