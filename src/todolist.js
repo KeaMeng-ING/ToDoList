@@ -761,12 +761,14 @@ export const toDosManager = function () {
           for (let key in list) {
             list[key] = list[key].filter((task) => task.title !== taskTitle);
             localStorage.setItem("list", JSON.stringify(list));
+            domManipulator().renderNumProject(list);
           }
         } else {
           for (let key in list) {
             if (list[key] && list[key].title === taskTitle) {
               list.splice(0, 1);
               localStorage.setItem("list", JSON.stringify(allList));
+              domManipulator().renderNumProject(allList);
             }
           }
         }
