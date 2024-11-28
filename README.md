@@ -8,7 +8,7 @@ The **To-Do List App** is a simple and intuitive application that allows users t
 - **Edit Tasks**: Modify existing tasks.
 - **Delete Tasks**: Remove tasks that are no longer needed.
 - **Mark as Completed**: Easily mark tasks as done to track progress.
-- **Task Persistence**: Save tasks even after closing the app (local storage or database).
+- **Task Persistence**: Save tasks even after closing the app (local storage).
 
 ## Skills Learned
 
