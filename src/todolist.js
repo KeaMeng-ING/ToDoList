@@ -326,7 +326,7 @@ export const domManipulator = function () {
       );
 
       closeAddDialog();
-      overlay.classList.add("overlay_active");
+      overlay.classList.remove("overlay_active");
 
       // Display and need all list to renderNumProject
       const listContainer = document.querySelector(".list-container");
