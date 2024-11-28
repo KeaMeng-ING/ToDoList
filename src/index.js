@@ -17,61 +17,83 @@ const list = JSON.parse(localStorage.getItem("list")) || {
   work: [],
 };
 
-// function cleanList(list) {
-//   for (let key in list) {
-//     if (list[key] == null || list[key].length === 0) {
-//       delete list[key];
-//     }
-//   }
-// }
-
-// // Clean the list before rendering
-// cleanList(list);
-
-// console.log(list);
-
-// localStorage.clear();
-
 if (!localStorage.getItem("list")) {
   console.log("in creating");
   console.log("create new list");
   list.work.push(
     toDo.createTask(
-      "Home Task 1",
-      "Description for Home Task 1",
-      "low",
-      "2024-10-09",
-      true
+      "Complete Project Report",
+      "Prepare the final report for the project",
+      "high",
+      "2024-12-01",
+      false
     )
   );
   list.home.push(
     toDo.createTask(
-      "Home Task 2",
-      "Description for Home Task 2",
-      "medium",
-      "2024-11-09",
-      true
+      "Clean Living Room",
+      "Organize and vacuum the living room",
+      "low",
+      "2024-12-03",
+      false
     )
   );
   list.today.push(
     toDo.createTask(
-      "Today Task 1",
-      "Description for Today Task 1",
+      "Review Meeting Notes",
+      "Go through the notes from today's meeting",
+      "medium",
+      "2024-11-28",
+      false
+    )
+  );
+  list.today.push(
+    toDo.createTask(
+      "Submit Assignment",
+      "Submit the math assignment online",
       "high",
-      "2024-10-09"
+      "2024-11-28",
+      false
     )
   );
-  list.today.push(
+
+  list.gym.push(
     toDo.createTask(
-      "Today Task 2",
-      "Description for Today Task 2",
+      "Morning Workout",
+      "Complete 30 minutes of cardio and strength training",
       "medium",
-      "2024-11-09"
+      "2024-11-29",
+      false
+    )
+  );
+  list.gym.push(
+    toDo.createTask(
+      "Yoga Session",
+      "Attend evening yoga class at the gym",
+      "low",
+      "2024-12-01",
+      false
+    )
+  );
+  list.study.push(
+    toDo.createTask(
+      "Complete Reading Assignment",
+      "Read Chapter 5 of the textbook",
+      "high",
+      "2024-11-30",
+      false
+    )
+  );
+  list.study.push(
+    toDo.createTask(
+      "Practice Coding",
+      "Solve 5 problems on LeetCode",
+      "high",
+      "2024-11-29",
+      false
     )
   );
 }
-
-// localStorage.clear();
 
 // Render Project EERIR
 dom.renderProject(list);
