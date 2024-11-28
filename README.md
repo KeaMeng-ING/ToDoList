@@ -10,14 +10,15 @@ The **To-Do List App** is a simple and intuitive application that allows users t
 - **Mark as Completed**: Easily mark tasks as done to track progress.
 - **Task Persistence**: Save tasks even after closing the app (local storage or database).
 
-## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend** (Optional): Node.js, Express (if applicable for a full-stack project)
-- **Database** (Optional): MongoDB, SQLite, or localStorage (for persistent data)
+## Skills Learned
 
-## Installation
+- The importance of pre-planning  
+- Patience and taking time to rethink errors  
+- Efficient execution through better understanding of project scope and requirements  
+- Taking breaks to improve focus and well-being  
+- Aligning with project objectives through a proactive approach  
+- Analyzing challenges and avoiding rushing into solutions
 
-1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/yourusername/todolist.git
+
+
